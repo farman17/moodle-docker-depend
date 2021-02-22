@@ -1,4 +1,3 @@
-
 FROM ubuntu:latest
 
 
@@ -14,7 +13,7 @@ RUN apt-get -y install graphviz aspell ghostscript clamav php7.4-pspell php7.4-c
 
 
 
-ADD moodle-latest-39.tgz /var/www/html/
+ADD moodle-latest-310.tgz /var/www/html/
 
 RUN chmod 755 /var/www/html/moodle/
 
