@@ -20,9 +20,9 @@ services:
            - moodle_data:/var/lib/mysql
       restart: always 
       environment:
-              MYSQL_ROOT_PASSWORD: farman17
-              MYSQL_USER: admin
-              MYSQL_PASSWORD: farman17
+              MYSQL_ROOT_PASSWORD: 
+              MYSQL_USER: 
+              MYSQL_PASSWORD: 
               MYSQL_DATABASE: babiguling
       networks:
            - moodle
